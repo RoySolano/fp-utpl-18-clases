@@ -1,0 +1,33 @@
+1  Inicio
+2   //Determinación de variables
+3   dia(i[0-7])
+4   //Inicialización de variables
+5   dia<-0
+6   //Entrada y salida de datos
+7   <<"Ingrese el número del día:"
+8   >>dia
+9   //Procesos
+10  Dependiendo de (dia) hacer
+11   Caso 1:
+12    <<"Lunes"
+13   Fin
+14   Caso 2:
+15    <<"Martes"
+16   Fin
+17   Caso 3:
+18    <<"Miércoles"
+19   Fin
+20   Caso 4:
+21    <<"Jueves"
+22   Fin
+19   Caso 5:
+20    <<"Viernes"
+21   Fin
+22   Caso 6:
+23    <<"Sábado"
+24   Fin
+25   Caso 7:
+26    <<"Domingo"
+27   Fin
+28  Fin_Depediendo De
+29 Fin

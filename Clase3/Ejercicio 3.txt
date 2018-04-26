@@ -1,0 +1,20 @@
+1  Inicio
+2   //Determinación de variables
+3   x(d[0-n]), y(d[0-n])
+4   //Inicialización de variables
+5   x<-0, y<-0
+6   //Entrada y salida de datos
+7   <<"Ingrese el valor de x:"
+8   >>x
+9   //Procesos
+10  Si (x<0) entonces
+11   y<-3*x+10
+12  Fin_si
+13  Si (x>0) entonces
+14   y<-2*x+6
+15  Fin_si
+16  Si (x=0) entonces
+17   y<-1
+18  Fin_si
+19  <<"El valor de y es:", +y 
+20 Fin

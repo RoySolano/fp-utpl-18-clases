@@ -1,0 +1,37 @@
+1  Inicio
+2   //Determinación de variables
+3   tipo_cliente(i[0-7]), nombre(x(60)[{A-Z},{a-z},{BS}]), precio(d[0-300]), cantidad(i[0-20]), descuento(d[0-n]),
+4   porcentaje(d[0-1]), subtotal(d[0-n]), total(d[0-n])
+5   //Inicialización de variables
+6   tipo_cliente<-1, nombre<-vacio, precio<-0, cantidad<-0, descuento<-0, porcentaje<-0, subtotal<-0, total<-0
+7   //Entrada y salida de datos
+8 
+9 
+10  //Procesos
+11  nombre<-Luis Álvarez
+12  tipo_cliente<-1
+13  cantidad<-20
+14  precio<-300
+15 
+16  Dependiendo de (tipo_cliente) hacer
+17   Caso 1:
+18    porcentaje<-0.1
+19   Fin
+20   Caso 2:
+21    porcentaje<-0.2
+22   Fin
+23   Caso 3:
+24    porcentaje<-0.3
+25   Fin
+26  Fin_Depediendo De
+27  subtotal<-cantidad*precio
+28  descuento<-subtotal*porcentaje
+29  total<-subtotal-descuento
+30  <<"Nombre:", +nombre
+31  <<"Tipo de cliente:", +tipo_cliente
+32  <<"Cantidad de celulares:", +cantidad
+33  <<"Precio por cada celular:", +precio
+34  <<"Subtotal a pagar:", +subtotal
+35  <<"Descuento:", +descuento
+36  <<"Valor final a pagar:", +total 
+37 Fin

@@ -1,0 +1,28 @@
+1  Inicio
+2   //Determinación de variables
+3   precio(d[0-n]), cantidad(i[0-n]), descuento(d[0-n]),
+4   porcentaje(d[0-1]), subtotal(d[0-n]), total(d[0-n])
+5   //Inicialización de variables
+6   precio<-0, cantidad<-0, descuento<-0, porcentaje<-0, subtotal<-0, total<-0
+7   //Entrada y salida de datos
+8   <<"Ingrese la cantidad de balones comprados:"
+9   >>cantidad
+10  <<"Ingrese el precio de cada balón:"
+11  >>precio
+12  //Procesos
+13  Si (cantidad=1) entonces
+14   porcentaje<-0.5
+15  Fin_si
+16  Si (cantidad=2) entonces
+17   porcentaje<-0.7
+18  Fin_si
+19  Si (cantidad>=3) entonces
+20   porcentaje<-0.8
+21  Fin_si
+22  subtotal<-cantidad*precio
+23  descuento<-subtotal*porcentaje
+24  total<-subtotal-descuento
+25  <<"Subtotal:", +subtotal
+26  <<"Descuento:", +descuento
+27  <<"Valor final a cancelar:", +total 
+28 Fin

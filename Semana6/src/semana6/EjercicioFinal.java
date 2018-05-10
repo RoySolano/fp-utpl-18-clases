@@ -29,17 +29,19 @@ public class EjercicioFinal {
                 altura = 1.20;
             }
             suma = suma + altura;
-            promedio = suma / contador;
-            cadenafinal = String.format("%s%.2f\n",cadenafinal,altura);
-            contador = contador + 1;
             
+            cadenafinal = String.format("%s%.2f\n",cadenafinal,altura);
+            promedio = suma / contador;
+            contador = contador + 1;
+       
             entrada.nextLine();
-            System.out.println("Ingrese si para salir");
+            System.out.println("¿Desea dejar de ingresar estaturas?");
             String temporal = entrada.nextLine();
             if(temporal.equals("si") || temporal.equals("Si")){
                 opcion = false;
             }
         }
+        
         System.out.printf("%s",cadenafinal);
         System.out.printf("%s %.2f\n","Promedio de esturas:",promedio);
         System.out.printf("%s\n","Reporte generado por Dep. Deportes");
